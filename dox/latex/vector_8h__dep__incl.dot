@@ -1,0 +1,19 @@
+digraph "/home/patryk/Pulpit/zad4-Patidzon/inc/vector.h"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="/home/patryk/Pulpit\l/zad4-Patidzon/inc/vector.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Ten plik zawiera definicje szablonu Wektor<>"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node2 [label="/home/patryk/Pulpit\l/zad4-Patidzon/app/main.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$app_2main_8cpp.html",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node3 [label="/home/patryk/Pulpit\l/zad4-Patidzon/inc/matrix.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$matrix_8h.html",tooltip="plik zawiera definicje szablonu klasy Macierz<>"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node4 [label="/home/patryk/Pulpit\l/zad4-Patidzon/inc/prostopadloscian.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$prostopadloscian_8h.html",tooltip="Plik zawiera definicje klasy prostokat."];
+  Node4 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node5 [label="/home/patryk/Pulpit\l/zad4-Patidzon/tests\l/main.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$tests_2main_8cpp.html",tooltip=" "];
+  Node3 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+}

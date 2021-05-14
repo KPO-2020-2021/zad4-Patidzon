@@ -46,9 +46,17 @@ set(TESTFILES        # All .cpp files in tests/
     test_Wektor2D.cpp
     test_Macierz2x2.cpp
     test_Prostokat.cpp # etc.
-)
+) 
 ```
 The `main.cpp` in the folder `tests` is needed. Only there we define `#define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN`.
 
 The main loop of the program is in the `app` folder.
 
+Wazne informacje 
+
+1. nie udalo mi sie zaimplemetowac liczenia dlugosci bokow( zabraklo mi czasu na sprawdzenie zaleznosci polozenia poszczegolnych punktow ) 
+2. Nie zaimplemetowalem sceny bo w sumie nie byla mi potrzebna, a zabraklo mi czasu na implementowanie jej dla zasady.
+3. dokumentacja wygenerowana z doxywizarda znajduje sie w folderze doc/html
+4. Program kompiluje sie i dziala poprawnie 
+5  nie udalo mi sie zaimplemetowac  Testu mnozenia macierzy przez macierz ze wzgledu na blad pojawiajacy sie przez uzycie operatora == mimo ze w samym kodzie nie wywolywal bledow
+6 Udalo mi sie odkryc przyczyne segmentation fall(pojawiajacego sie na zakonczenie programu) z poprzedniego zadania wynikal on z niedostosowania rozmiaru tablicy klasy prostokat (nalezy zwiekszyc jej rozmiar o jeden oraz dokonac zmiany w metodach tej funkcji w petlach for (zamienic=< na <))

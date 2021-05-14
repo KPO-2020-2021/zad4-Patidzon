@@ -1,0 +1,31 @@
+Start testing: May 13 21:45 CEST
+----------------------------------------------------------
+1/1 Testing: program.unit_tests
+1/1 Test: program.unit_tests
+Command: "/home/patryk/Pulpit/zad4-Patidzon/build/unit_tests" "-V"
+Directory: /home/patryk/Pulpit/zad4-Patidzon/build/tests
+"program.unit_tests" start time: May 13 21:45 CEST
+Output:
+----------------------------------------------------------
+[doctest] doctest version is "2.4.5"
+[doctest] run with "--help" for options
+===============================================================================
+/home/patryk/Pulpit/zad4-Patidzon/tests/main.cpp:45:
+TEST CASE:  dodawanie wektorow zaokraglanie
+
+/home/patryk/Pulpit/zad4-Patidzon/tests/main.cpp:53: WARNING: WARN_THROWS( a == y ) did NOT throw at all!
+
+1 2.0000000000 3.0000000000 
+===============================================================================
+[doctest] test cases: 12 | 12 passed | 0 failed | 0 skipped
+[doctest] assertions: 11 | 11 passed | 0 failed |
+[doctest] Status: SUCCESS!
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"program.unit_tests" end time: May 13 21:45 CEST
+"program.unit_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: May 13 21:45 CEST
